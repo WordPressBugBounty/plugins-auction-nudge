@@ -1,10 +1,10 @@
 === Auction Nudge - Your eBay on Your Site ===
 Contributors: morehawes
-Tags: ebay, item, listing, feed, embed, store, shop
+Tags: ebay, item, listing, embed, store
 Requires at least: 3.2
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.2
-Stable tag: 7.2.0
+Stable tag: 7.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Display your live eBay Listings with a Shortcode.
 
 Display your active eBay items on your WordPress site using <a href="https://www.auctionnudge.com/">Auction Nudge</a>, an approved eBay Compatible Application.
 
-**The Your eBay Profile and Your eBay Feedback tools are being retired. The ability to create new snippets for these tools has been removed and existing snippets will soon cease to function. More information can be found <a href="https://www.auctionnudge.com/changes#v2024.4.0">here</a>.**
+**The Your eBay Profile and Your eBay Feedback tools are being retired, more information <a href="https://www.auctionnudge.com/changes#v2024.4.0">here</a>. The Your eBay Listings tool will continue to be supported** :)
 
 Add the Auction Nudge Shortcode anywhere that Shortcodes are supported:
 
@@ -135,6 +135,16 @@ This means that if you are not happy with the Advertising Disclosure, then Aucti
 
 Attempting to hide, obscure or modifying the disclosure puts the service at risk for all users. Therefore, Auction Nudge reserves the right to block any user who attempts to do so.
 
+= What happened to the Your eBay Profile and Your eBay Feedback tools? =
+
+These tools are being retired as of October 2024. Unfortunately, eBay has scheduled the data source for these tools to be decommissioned in February 2025. With no alternative available, it will no longer be possible to provide these tools.
+
+The tools will continue to function as normal until the Shopping API is decommissioned, when the tools will cease to function and no content will be displayed on the page.
+
+The Your eBay Listings tool has already been migrated to the new Browse API and will continue to be supported :)
+
+More information can be found <a href="https://www.auctionnudge.com/changes#v2024.4.0">here</a>.
+
 == Screenshots ==
 
 1. Preview and customize your Shortcode.
@@ -143,6 +153,10 @@ Attempting to hide, obscure or modifying the disclosure puts the service at risk
 4. A default eBay username saves time!
 
 == Changelog ==
+
+= 7.2.1 =
+
+Admin form Cross Site Scripting (XSS) vulnerability fix. Thanks to <a href="https://patchstack.com/database/researcher/e8b26d85-211b-4078-9d62-d56faa6d7f8a">b4orvn</a> for reporting this via <a href="https://patchstack.com">Patchstack</a>.
 
 = 7.2.0 =
 
