@@ -4,17 +4,17 @@ Tags: ebay, item, listing, embed, store
 Requires at least: 3.2
 Tested up to: 6.7
 Requires PHP: 5.2
-Stable tag: 8.0.0
+Stable tag: 8.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Display your live eBay Listings with a simple Block or Shortcode.
+An approved eBay Compatible Application to display your live eBay Listings. Once added, your active eBay items will be updated automatically.
 
 == Description ==
 
 Display your active eBay items on your WordPress site using <a href="https://www.auctionnudge.com/">Auction Nudge</a>, an approved eBay Compatible Application.
 
-**The Your eBay Profile and Your eBay Feedback tools are being retired, more information <a href="https://www.auctionnudge.com/changes#v2024.4.0">here</a>. The Your eBay Listings tool will continue to be supported** :)
+**The Your eBay Profile and Your eBay Feedback tools have been retired, more information <a href="https://www.auctionnudge.com/changes#v2024.4.0">here</a>. The Your eBay Listings tool will continue to be supported** :)
 
 Add Auction Nudge to your site either as a Block (called "Your eBay Listings") or Shortcode anywhere they are supported:
 
@@ -27,7 +27,7 @@ Add Auction Nudge to your site either as a Block (called "Your eBay Listings") o
 	* Filter by eBay category
 	* Search of all of your active items by keyword
 
-**In order to remain free, Auction Nudge is supported by referral commissions from eBay and includes an [Advertising Disclosure](https://www.auctionnudge.com/about#disclosure).**
+**In order to remain free, Auction Nudge is supported by referral commissions from eBay and includes an [Advertising Disclosure](https://www.auctionnudge.com/disclosure).**
 
 = Feed Options =
 
@@ -130,7 +130,7 @@ The following links should help with most questions and issues:
 
 = Can I Remove The Advertising Disclosure? =
 
-No. The [advertising disclosure](https://www.auctionnudge.com/about#disclosure) is a requirement of the [eBay Partner Network](https://partnernetwork.ebay.com/page/network-agreement#guidelines) and is a condition of use for Auction Nudge.
+No. The [advertising disclosure](https://www.auctionnudge.com/disclosure) is a requirement of the [eBay Partner Network](https://partnernetwork.ebay.com/page/network-agreement#guidelines) and is a condition of use for Auction Nudge.
 
 This means that if you are not happy with the Advertising Disclosure, then Auction Nudge is not the **free tool** for you.
 
@@ -138,7 +138,7 @@ Attempting to hide, obscure or modifying the disclosure puts the service at risk
 
 = What happened to the Your eBay Profile and Your eBay Feedback tools? =
 
-These tools are being retired as of October 2024. Unfortunately, eBay has scheduled the data source for these tools to be decommissioned in February 2025. With no alternative available, it will no longer be possible to provide these tools.
+These tools have been retired as of October 2024. Unfortunately, eBay has scheduled the data source for these tools to be decommissioned in February 2025. With no alternative available, it will no longer be possible to provide these tools.
 
 The tools will continue to function as normal until the Shopping API is decommissioned, when the tools will cease to function and no content will be displayed on the page.
 
@@ -155,10 +155,14 @@ More information can be found <a href="https://www.auctionnudge.com/changes#v202
 
 == Changelog ==
 
+= 8.1.0 =
+
+* The Your eBay Profile and Your eBay Feedback tools have been retired. These tools no longer display any content and output a message in the browser console. More information can be found <a href="https://www.auctionnudge.com/changes#v2024.4.0">here</a>.
+
 = 8.0.0 =
 
-- * **Block Support** - Added "Your eBay Listings" Block for the WordPress Block Editor (Gutenberg). Preview and customize your eBay content using Block options.
-- Bug fixes.
+* **Block Support** - Added "Your eBay Listings" Block for the WordPress Block Editor (Gutenberg). Preview and customize your eBay content using Block options.
+* Bug fixes.
 
 = 7.3.1 =
 
@@ -191,7 +195,7 @@ Request endpoint fix. Thanks	to <a href="https://wordpress.org/support/users/hyp
 
 = 7.1.4 =
 
-Added extra information about the [Advertising Disclosure](https://www.auctionnudge.com/about#disclosure).
+Added extra information about the [Advertising Disclosure](https://www.auctionnudge.com/disclosure).
 
 = 7.1.3 =
 
