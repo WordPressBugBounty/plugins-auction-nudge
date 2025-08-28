@@ -4,7 +4,7 @@ Tags: ebay, feed, listings, embed, store
 Requires at least: 3.2
 Tested up to: 6.8
 Requires PHP: 5.2
-Stable tag: 8.2.0
+Stable tag: 8.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,7 +84,7 @@ From your site, your visitors can:
 * **Sort Order** - Choose in which order your items are displayed (items ending first, newly-listed first, price + shipping: lowest first, price + shipping: highest first or best match)
 * **Listing Type** - Choose to only display items listed as either Auction or Buy It Now.
 * **Filter by Keyword** - Specify to only show items which match a certain keyword query
-* **Filter by Category ID** - Specify to only show items listed in a certain category/categories
+* **Filter by Category ID** - Specify to only show items listed in a certain eBay category
 
 *Auction Nudge is an approved eBay Compatible Application. Auction Nudge is not owned or operated by eBay Inc. eBay and the eBay logo are trademarks of eBay Inc. As a member of the eBay Partner Network, Auction Nudge may receive anonymous referral commissions from eBay if a successful transaction occurs after clicking a link to eBay, at no cost to the user.*
 
@@ -174,6 +174,12 @@ More information can be found <a href="https://www.auctionnudge.com/changes#v202
 5. A default eBay username saves time!
 
 == Changelog ==
+
+= 8.2.1 =
+
+* Reintroducing the [Carousel theme](https://www.auctionnudge.com/changes#v2025.5.0).
+* Added Help links to Block options.
+* Minor bug fixes and improvements.
 
 = 8.2.0 =
 
